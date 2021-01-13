@@ -3,7 +3,7 @@ from DataQuery import *
 from UtilClass import *
 from Visualizer import *
 
-token = create_token('eric_official', 'user-library-read')
+token = create_token('YOUR_USERNAME', 'user-library-read')
 tracks = get_saved_tracks(token)
 ids = get_ids(tracks)
 features = avg_features(token, ids)
